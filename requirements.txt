@@ -1,0 +1,9 @@
+requests
+beautifulsoup4 # parsing
+pandas # analysis
+python-dateutil
+feedparser
+
+# Run by:
+# pip install -r requirements.txt
+# python main.py
