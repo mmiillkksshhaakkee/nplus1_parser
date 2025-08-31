@@ -12,7 +12,6 @@ async def main():
 
     if articles:
         filtered_articles = filter_by_keyword(articles, "физика")
-
         print(f"Found {len(articles)} articles for this week:")
         for a in articles[:5]:
             print(f"- {a['title']} ({a['date']})")
